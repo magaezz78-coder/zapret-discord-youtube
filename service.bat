@@ -6,7 +6,8 @@ if "%~1"=="status_zapret" (
     call :test_service zapret soft
     call :tcp_enable
     exit /b
-)
+6
+
 
 if "%~1"=="check_updates" (
     if not "%~2"=="soft" (
